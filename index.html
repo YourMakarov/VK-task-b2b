@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width,
+						initial-scale=1.0">
+	<title>TheBestWork</title>
+	<link rel="stylesheet"
+		href="style.css">
+</head>
+
+<body>
+	<div class="container">
+    <h1 class="heading">Забронировать</h1>
+		<div class="form-section">
+      
+			<div class="tower select-item">
+				<label class = "label" for="tower-num">Башня:</label>
+        <select name="tower-num" id="tower-num">
+          <option value="А">А</option>
+          <option value="Б">Б</option>
+        </select>
+      </div>
+      <div class="floor select-item">
+				<label class = "label" for="floor-num">Этаж:</label>
+        <select name="floor-num" id="floor-num">
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="3">6</option>
+          <option value="А">7</option>
+          <option value="А">8</option>
+          <option value="А">9</option>
+          <option value="А">10</option>
+          <option value="А">11</option>
+          <option value="А">12</option>
+          <option value="А">13</option>
+          <option value="А">14</option>
+          <option value="А">15</option>
+          <option value="А">16</option>
+          <option value="А">17</option>
+          <option value="А">18</option>
+          <option value="А">19</option>
+          <option value="А">20</option>
+          <option value="А">21</option>
+          <option value="А">22</option>
+          <option value="А">23</option>
+          <option value="А">24</option>
+          <option value="А">25</option>
+          <option value="А">26</option>
+          <option value="А">27</option>
+        </select>
+      </div>
+      <div class="room select-item">
+				<label class = "label" for="room-num">Переговорка:</label>
+        <select name="room-num" id="room-num">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+      <div class = "date select-item">
+        <label class = "label" for="meeting-date">Дата:</label>
+        <input type="date" name="meeting-date" id="meeting-date">
+      </div>
+
+        <div class = "select-item time">
+          <label for="time">С:</label>
+          <input type="time" name="start-time" id="start-time-input">
+          <label for="time">По:</label>
+          <input type="time" name="end-time" id="end-time-input">
+        </div>
+      <div class = "select-item textarea">
+        <label class = "label" for="comment">Комментарий к брони:</label>
+        <textarea></textarea>
+      </div>
+      <div class="buttons">
+				<button id="get-data">Отправить</button>
+        <button id="clear-data">Очистить</button>
+      </div>
+      
+      </div>
+
+      
+		</div>
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
