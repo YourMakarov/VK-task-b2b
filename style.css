@@ -67,6 +67,9 @@ select{
   -moz-appearance: none;
   -webkit-appearance: none;
 }
+select:hover{
+  background-color: rgb(223, 240, 225);
+}
 select::-ms-expand{
   display: none;
 }
@@ -77,6 +80,9 @@ input{
   font-size: 25px;
   border-radius: 10px;
 } 
+input:hover{
+  background-color: rgb(223, 240, 225);
+}
 button{
   margin-top: 15px;
 }
@@ -87,12 +93,18 @@ button{
             rgb(255, 195, 110),
             rgb(255, 146, 91));
 }
+
 #clear-data{
   height: 30px;
   border: none;
   outline: none;
   background-color: white;
 }
+
+#clear-data:hover{
+  color: gray;
+}
+
 .textarea{
   margin-top: 15px;
 }
@@ -103,4 +115,16 @@ textarea{
   margin-left: 20px;
   margin-right: 20px;
 }
+textarea:hover{
+  background-color: rgb(223, 240, 225);
+}
+#get-data:hover{
+  height: 30px;
+  border-radius: 10px;
+   background-image: linear-gradient(to right,
+            rgb(255, 146, 91),
+            rgb(255, 146, 91));
+}
+
+
 
